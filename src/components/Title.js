@@ -1,5 +1,7 @@
 import React from "react";
 
 export default function Title(props) {
-return <h1>{props.content}</h1>
+return  <div class="mb-5">
+            <h1>{props.content}</h1>
+        </div>
 }
